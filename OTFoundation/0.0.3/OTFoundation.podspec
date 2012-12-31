@@ -21,7 +21,7 @@ Core components include notably:
                     DESC
   s.source        = { :git => 'git@github.com:opentable/OTFoundation.git', :tag => version_tag }
   s.requires_arc  = true
-  s.source_files  = ["OTFoundation/**/*.{h,m}"]
+  s.source_files  = ["OTFoundation/**/*.{h,m,c,mm,cpp}"]
   s.dependency    'ASIHTTPRequest', '>= 1.8.1'
   s.prefix_header_file = "OTFoundation/Supporting Files/OTFoundation-Pod-Prefix.pch"
 end
