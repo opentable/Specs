@@ -1,9 +1,5 @@
-require 'cfpropertylist'
 
-# read the plist and extract data
-plist = CFPropertyList::List.new(:file => "./Resources/Info.plist")
-data = CFPropertyList.native_types(plist.value)
-version = data["CFBundleVersion"]
+version = "0.0.6"
 
 Pod::Spec.new do |s|
   s.name          = 'OTFoundation'

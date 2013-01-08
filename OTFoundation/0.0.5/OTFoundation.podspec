@@ -1,5 +1,5 @@
-version = '0.0.5'
-version_tag = 'v0.0.5'
+version = "0.0.5"
+version_tag = "v0.0.5"
 
 Pod::Spec.new do |s|
   s.name          = 'OTFoundation'
