@@ -21,7 +21,7 @@ Straight port to CocoaPod for MoPub library.
   s.source_files  = ["MoPubiOS/MoPubSDK/**/*.{h,m}"]
   
 # don't forget bundle and such
-  s.resources = 'MoPubiOS/MoPubSDK/*.png', 'MoPubiOS/MoPubSDK/MRAID.bundle'
+  s.resources = 'MoPubiOS/MoPubSDK/*.png', 'MoPubiOS/MoPubSDK/MRAID.bundle', 'MoPubiOS/MoPubSDK/MPAdBrowserController.xib'
   
 # the project is not arcified
   s.requires_arc = false
