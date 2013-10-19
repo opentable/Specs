@@ -1,4 +1,4 @@
-version = "2.0.0"
+version = "2.0.1"
 
 Pod::Spec.new do |s|
   s.name         = "KIF-OT"
@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/**/*.h', 'Additions/**/*-KIFAdditions.h'
   s.frameworks  = 'SenTestingKit', 'CoreGraphics'
   s.prefix_header_contents = '#import <CoreGraphics/CoreGraphics.h>'
+  s.header_dir = 'KIF'
 end
